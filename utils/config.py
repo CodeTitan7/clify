@@ -30,7 +30,7 @@ def authenticate_spotify():
     client_id, client_secret = get_spotify_credentials()
 
     if not client_id or not client_secret:
-        print("client id & client secret")
+        print("Enter the Client ID and Client Secret from the Spotify Developer Dashboard.")
         client_id = input("Clify/Client ID > ")
         client_secret = input("Clify/Client Secret > ")
         save_spotify_credentials(client_id, client_secret)
@@ -43,7 +43,7 @@ def authenticate_spotify():
                                                        cache_path=CACHE))
         return sp
     except Exception as e:
-        print(f"error auth: {e}")
+        print(f"Error during authentication: {e}")
         return None
 
 
