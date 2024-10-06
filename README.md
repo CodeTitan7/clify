@@ -1,34 +1,47 @@
-# CLIFY 
+# CLIFY
 
 A command-line interface (CLI) tool for controlling Spotify playback using the Spotify Web API and Spotipy. This tool allows users to search for tracks, control playback (play, pause, skip, etc.), and set timers, all from the terminal. It is designed to simplify Spotify interaction for power users and developers through an easy-to-use command-line interface.
 
-# Features
+## Features
 
-1.Play/Pause: Start and pause playback.
+1. **Play/Pause**: Start and pause playback.
+2. **Next/Previous**: Skip to the next or previous track.
+3. **Search**: Search for tracks, albums, or artists on Spotify.
+4. **Lyrics**: Fetch and display lyrics for the currently playing track.
+5. **Timer**: Set a timer to pause or stop the current track after a specific time.
+6. **Playlist Management**: Create and manage playlists.
+7. **Device Control**: Switch playback between different devices.
+8. **Library Management**: Show and manage saved tracks.
+9. **Spotipy Integration**: Leverages the Spotipy library to simplify API interactions.
 
-2.Next/Previous: Skip to the next or previous track.
+## Usage
 
-3.Search: Search for tracks, albums, or artists on Spotify.
+1. Clone the repository:
 
-4.Timer: Set a timer to pause or stop the current track after a specific time.
+    ```bash
+    git clone https://github.com/CodeTitan7/clify.git
+    cd clify
+    ```
 
-5.Spotipy Integration: Leverages the Spotipy library to simplify API interactions.
+2. Install the required dependencies:
 
-# Usage 
-1.After cloning the repo ,change the current directory to Clify.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2.Run the main.py file
+3. Run the `main.py` file:
 
-```bash
-python main.py
-```
-3.Use the "Search" command to search a particular song.
+    ```bash
+    python main.py
+    ```
 
-```bash
-Clify/Search > song_name
-```
-4.Then use play command followed by the song number to play the song.
+4. Use the `Search` command to search a particular song:
 
+    ```bash
+    Clify/Search > song_name
+    ```
+
+5. Then use play command followed by the song number to play the song
 
 ## Contributing
 
