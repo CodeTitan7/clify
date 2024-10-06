@@ -65,13 +65,16 @@ def main():
                   
 search: Search spotify for a specific song. Use '-a' to show the album for each search result.
 nowplaying: Shows the song that is playing. Use '-a' to show the album. Use '-l' to add song to library.
+lyrics: Shows the lyrics of currently playing song. 
 library: Displays the last 20 tracks you added to your library.
 createplist: Create a new playlist.
 playlists: Allows you to view all the songs in a playlist from your library.
+recs: Shows list of recommended songs. 
+timer: Pause the song after the specified duration.
 close: Closes the program.
                   
 >>> Playback Controls <<<
-                  
+                      
 play: Resume playback or play recently played tracks if no current playback.
 pause: Pause the currently playing song.
 skip: Skips to the next song.
